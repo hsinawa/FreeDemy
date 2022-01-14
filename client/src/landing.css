@@ -1,0 +1,276 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+	
+}
+
+
+
+
+
+#introtext
+{
+	font-size: 100px;
+	font-family: serif;
+	text-align: right;
+	padding:20px;
+}
+
+#lowertext
+{
+	color: gray;
+	text-align: right;
+	padding:20px;
+	font-size: 20px;
+
+}
+#middlealign
+{
+    font-size: 65px;
+    text-align: center;
+   
+
+}
+
+#sidei
+{
+	width: 100%;
+	height: 600px;
+	
+}
+
+#sidetext
+{
+	font-size: 40px;
+	padding-left: 50px;
+	
+	text-align: left;
+}
+
+
+#contact
+{
+	border: 1px solid black;
+
+	padding: 20px;
+	margin: 5px;
+
+
+}
+
+input
+{
+	font-size: 40px;
+	border-radius: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+input::placeholder
+{
+	text-align: start;
+}
+#message
+{
+	height: 300px;
+}
+
+#btn
+{
+	border-radius: 25px;
+	font-size: 45px;
+	border: none;
+	background-color: #023047;
+	color: #8ecae6;
+	padding-left: 50px;
+	padding-right: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+.lastmessage
+{
+	font-size: 30px;
+	color: #ffb703;
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	
+	color: #fb8500;
+}
+
+
+@media screen and (max-width:800px) {
+	.grid
+{
+    display: block;
+}
+
+#introtext
+{
+	font-size: 80px;
+	font-family: serif;
+	text-align: center;
+	padding:50px;
+}
+
+#lowertext
+{
+	color: gray;
+	text-align: right;
+	padding:5px;
+	font-size: 12px;
+
+}
+
+#sidei
+{
+	width: 100%;
+	height: 450px;
+}
+#sidetext
+{
+	font-size: 30px;
+	padding: 20px;
+	
+	text-align: left;
+}
+	
+
+
+input
+{
+	font-size: 25px;
+	border-radius: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+input::placeholder
+{
+	text-align: start;
+}
+#message
+{
+	height: 200px;
+}
+
+#btn
+{
+	border-radius: 25px;
+	font-size: 30px;
+	border: none;
+	background-color: #023047;
+	color: #8ecae6;
+	padding-left: 35px;
+	padding-right: 35px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+.lastmessage
+{
+	font-size: 20px;
+	color: red;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+	.grid
+{
+    display: block;
+}
+
+#introtext
+{
+	font-size: 50px;
+	font-family: serif;
+	text-align: center;
+	padding:50px;
+}
+
+#lowertext
+{
+	color: gray;
+	text-align: right;
+	padding:5px;
+	font-size: 12px;
+
+}
+
+#sidei
+{
+	width: 100%;
+	height: 450px;
+}
+
+
+#sidetext
+{
+	font-size: 20px;
+	padding: 20px;
+	
+	text-align: left;
+}
+
+
+input
+{
+	font-size: 15px;
+	border-radius: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+input::placeholder
+{
+	text-align: start;
+}
+#message
+{
+	height: 150px;
+	width: 65%;
+
+}
+
+#btn
+{
+	border-radius: 25px;
+	font-size: 20px;
+	border: none;
+	background-color: #023047;
+	color: #8ecae6;
+	padding-left: 50px;
+	padding-right: 50px;
+padding-top: 5px;
+padding-bottom: 5px;
+
+}
+
+.lastmessage
+{
+	font-size: 30px;
+	color: red;
+}
+
+	
+}

@@ -1,0 +1,397 @@
+
+.sidenav {
+    margin-top: 3.2%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  
+ 
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #023047;
+  }
+  
+a:hover{
+    color: #b1b1b1;
+}
+
+ 
+  .main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 10px;
+    height: 600px;
+  }
+  
+  
+  .active {
+    background-color: #28666e;
+    color: white;
+  }
+
+ 
+  
+  
+  .dropdown-container {
+    display: none;
+    background-color: #8ecae6;
+    padding-left: 8px;
+  }
+  
+ 
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  #mainscreen{
+      width: 80%;
+      margin-left: 18%;
+      height: 550px;
+      
+  }
+
+
+  @media screen  and (max-width:1300px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 300px;
+      
+  }
+
+  .sidenav {
+    margin-top: 5%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+
+
+
+  @media screen  and (max-width:1100px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 300px;
+      
+  }
+
+  .sidenav {
+    margin-top: 8%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+
+
+
+
+
+  @media screen  and (max-width:900px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 300px;
+      
+  }
+
+  .sidenav {
+    margin-top: 8%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen  and (max-width:700px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 300px;
+      
+  }
+
+  .sidenav {
+    margin-top: 9%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+
+
+
+
+  @media screen  and (max-width:500px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 250px;
+      
+  }
+
+  .sidenav {
+    margin-top: 10%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+  @media screen  and (max-width:420px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 20%;
+      height: 200px;
+      
+  }
+
+  .sidenav {
+    margin-top: 15%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }
+
+
+
+
+
+  @media screen  and (max-width:350px) {
+
+    #mainscreen{
+      width: 80%;
+      margin-left: 18%;
+      height: 170px;
+      
+  }
+
+  .sidenav {
+    margin-top: 18%;
+    margin-left: 0.45%;
+    height: 95%;
+    width: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #219ebc;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    display: block;
+    border: none;
+    padding: 5%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+    
+  }

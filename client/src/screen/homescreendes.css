@@ -1,0 +1,202 @@
+.welcomebg
+{
+    background-image: url('https://freepngimg.com/download/abstract/128471-blue-abstract-download-free-image.png');
+
+background-repeat: no-repeat;
+background-size: contain;
+
+height: 300px;
+margin-left: 150px;
+
+}
+
+
+.welcometext
+{
+    font-size: 60px;
+    margin-left: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#image
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridnew
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+padding: 10px;
+    margin: 10px;
+}
+
+
+.overframe
+{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin: 10px;
+  width: auto;
+
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#styleimg
+{
+    margin-top: 10px;
+    width: 90%;
+    
+}
+
+.overframe:hover{
+
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#onlyonecourse
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width:800px) {
+    
+    .welcomebg
+    {
+        background-image: url('https://freepngimg.com/download/abstract/128471-blue-abstract-download-free-image.png');
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    height: 300px;
+    margin-left: 30px;
+    
+    }
+
+    #image
+{
+    width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    
+
+
+
+
+.gridnew
+{
+    display: grid;
+    grid-template-columns: auto auto ;
+padding: 10px;
+    margin: 10px;
+}
+
+
+.overframe
+{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin: 10px;
+  width: auto;
+
+  border-radius: 10px;
+}
+
+#styleimg
+{
+    margin-top: 10px;
+    width: 90%;
+}
+
+
+
+
+#onlyonecourse
+{
+    width: 100%;
+}
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .welcomebg
+{
+    background-image: url('https://freepngimg.com/download/abstract/128471-blue-abstract-download-free-image.png');
+
+background-repeat: no-repeat;
+background-size: contain;
+
+height: 200px;
+margin-left: 10px;
+
+}
+
+
+#image
+{
+    width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gridnew
+{
+    display: block;
+    grid-template-columns: auto auto auto;
+padding: 10px;
+    margin: 10px;
+}
+
+
+.overframe
+{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin: 10px;
+  width: auto;
+
+  border-radius: 10px;
+}
+
+#styleimg
+{
+    margin-top: 10px;
+    width: 90%;
+}
+
+#onlyonecourse
+{
+    width: 100%;
+}
+
+
+    
+}

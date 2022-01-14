@@ -1,0 +1,176 @@
+
+   #imageleft
+   {
+   width: 70%;
+   height: 400px;
+   margin-top: 120px;
+   }
+
+#imagestyle
+{
+    margin-top: 50px;
+}
+
+
+
+
+input{
+    font-size: 20px;
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#styleinp
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 45%;
+}
+
+
+
+#styleinpanother
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 73%;
+  float: left;
+  
+}
+
+
+
+
+#h1
+{
+    margin-top: 100px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+#h2
+{
+    margin-top: 20px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+} 
+
+
+#subtext
+{
+    color: gray;
+    font-size: 30px;
+    margin-top: -30px;
+    text-align: left;
+} 
+
+
+
+
+@media screen  and (max-width:800px){
+
+    #styleinp
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 40%;
+}
+
+
+
+#styleinpanother
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 60%;
+    float:none;
+  
+}
+
+    
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+    #imageleft
+{
+width: 90%;
+height: 300px;
+margin-top: 20px;
+}
+
+input{
+    font-size: 20px;
+    width: 60%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 10px;
+  
+  
+}
+
+
+#h1
+{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+} 
+#h2
+{
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#subtext
+{
+    color: gray;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -30px;
+    text-align: left;
+}
+
+#btn
+{
+    margin-left: 10px;
+}
+
+
+#imagestyle
+{
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+#styleinpanother
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 45%;
+    float:none;
+
+}
+    
+}

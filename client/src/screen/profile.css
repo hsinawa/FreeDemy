@@ -1,0 +1,73 @@
+.vergrid
+{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+
+.gridanother
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#boxstyle
+{
+    border: 0.8px solid black;
+    margin: 10px;
+    padding: 5px;
+font-weight: 800;
+    border-radius: 8px 12px ;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.383) ;
+
+    /* background-image: url('https://i.pinimg.com/originals/eb/3b/9e/eb3b9e51cab01a9c44fb1bd547106c34.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+#icon
+{
+    font-size: 50px;
+    color: rgb(2, 2, 46);
+}
+
+.bgmimg
+{
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/2017/01/44h3kpfnmtxdp37.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#icondel
+{
+    font-size: 50px;
+    color: rgb(136, 7, 7);
+    padding: 10px;
+}
+
+
+#icondel:hover
+{
+    font-size: 55px;
+    color: rgb(240, 16, 16);
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .gridanother
+{
+    display: block;
+    grid-template-columns: auto auto;
+}
+
+
+
+}
