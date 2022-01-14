@@ -30,8 +30,9 @@ if(process.env.NODE_ENV==='production')
 
 
 
-const port =  3033 ;
 
- app.listen( port , ()=>{
-    console.log('Server started of Freedemy')
+const port = process.env.PORT ||  3033 ;
+
+var server = app.listen( port , ()=>{
+    console.log('Server started of FreeDemy')
 } )
