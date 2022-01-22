@@ -25,7 +25,7 @@ import MessageScreen from '../src/Courses/messagescreen'
 import Loader from './loader';
 import './loader.css';
 import AbdulBari from './Courses/abdulbari';
-import AdminScreen from './adminscreen';
+
 
 
 function App() {
