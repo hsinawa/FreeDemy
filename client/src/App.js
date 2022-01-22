@@ -21,6 +21,13 @@ import STL from './Courses/stl';
 import DSA from './Courses/web';
 import  UserProfile  from './screen/profile';
 import LogoutOOPS from '../src/oops';
+import MessageScreen from '../src/Courses/messagescreen'
+import Loader from './loader';
+import './loader.css';
+import AbdulBari from './Courses/abdulbari';
+import AdminScreen from './adminscreen';
+
+
 function App() {
 
 
@@ -38,13 +45,14 @@ function App() {
 
     <div className="App">
 
+
       <NavBar/>
       <br/> 
       <Router>
       <Switch>
        <Route exact path="/" ><LandingScreen/></Route>
        <Route  path="/login" ><LoginFreedemy/></Route>
-     {/* { currentuser ? ( <p>Already Logged in As {currentuser.name} </p> )  : ( <Route  path="/signup" ><RegisterFreedemy/></Route> ) } */}
+   
       
      <Route  path="/signup" ><RegisterFreedemy/></Route>
      <Route  path="/oops" ><LogoutOOPS/></Route>
@@ -63,8 +71,8 @@ function App() {
       { currentuser ? ( <Route  path="/userprofile"><UserProfile/></Route> ) : (  <LogoutOOPS/> ) }
     
     
-    
-    
+      { currentuser ?( <Route  path="/c++/abdulbari"><AbdulBari/></Route> )  : (  <LogoutOOPS/> ) }
+      
      </Switch>
         </Router>
 
