@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { MessageAction } from '../Action/messageaction';
 import { useDispatch, useSelector } from 'react-redux';
 import { MessageReducer } from '../Reducer/messagereducer';
+import Loader from '../loader'
 const LandingScreen = () => {
 
   const messred = useSelector(state=>state.MessageReducer)
@@ -39,6 +40,13 @@ dispatch(MessageAction(messagesend))
    
 
 
+  }
+
+
+  const windowreload=()=>{
+
+    window.location.reload()
+   console.log('reloading window')
   }
 
 
@@ -144,7 +152,7 @@ dispatch(MessageAction(messagesend))
           <form onSubmit={submitit} id="formstyle" >
             <input type="text" value={name} placeholder="Enter  Name*" required
 id="formstyle" 
-              onChange={(e) => { setname(e.target.value) }}
+               onChange={(e) => { setname(e.target.value) }}
 
             />
             <br /> <br />
@@ -161,12 +169,14 @@ id="formstyle"
 
             <br /> <br /> <br />
             <button id="btn" value='submit' > Submit </button>
+            
 
           </form>
+          { loading && ( <Loader/> ) }
           { success && ( <span  style={{ fontSize: "25px", color: '#023047' }} >Message Sent</span>  ) }
                         { error && ( <span  style={{ fontSize: "25px", color: '#023047' }} >Something Went Wrong</span>  ) }
           <br />
-          <p id="puthere" className="lastmessage" ></p>
+          
 
         </p>
 
