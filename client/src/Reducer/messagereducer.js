@@ -10,11 +10,13 @@ export const MessageReducer=(state={} , action )=>{
 
         case 'Message_success' :return {
 ...state ,
+loading : false ,
 success : true 
         }
 
         case 'Message_error' : return {
             ...state ,
+            loading : false ,
             error : true 
         }
 
