@@ -5,6 +5,7 @@ import {useDispatch , useSelector} from 'react-redux'
 import {RegisterUserReducer} from '../Reducer/userreducer'
 import {registeruseraction} from '../Action/useraction'
 import './login.css'
+import Loader from '../loader';
 const RegisterFreedemy=()=>{
 
     const registreducer = useSelector(state=>state.RegisterUserReducer)
@@ -121,6 +122,7 @@ onChange={ (e)=>{ setphone(e.target.value) } }
 
 <p id="messagetext" style={{color:'#00688B' , fontSize:'20px' }} ></p>
 
+{ loading && ( <Loader/> ) }
 
 {error && ( <p  style={{color:'#00688B' , fontSize:'20px' }} >Email Already Registered</p> )  }
 
