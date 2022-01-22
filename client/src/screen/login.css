@@ -71,6 +71,13 @@ input{
     text-align: left;
 } 
 
+#btn:hover{
+    
+    opacity: 0.8;
+   border:0.4px solid rgb(5, 3, 17);
+  transition-timing-function: 0.5s;
+    
+}
 
 
 
