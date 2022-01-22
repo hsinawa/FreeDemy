@@ -21,7 +21,7 @@ import STL from './Courses/stl';
 import DSA from './Courses/web';
 import  UserProfile  from './screen/profile';
 import LogoutOOPS from '../src/oops';
-import MessageScreen from '../src/Courses/messagescreen'
+
 import Loader from './loader';
 import './loader.css';
 import AbdulBari from './Courses/abdulbari';
