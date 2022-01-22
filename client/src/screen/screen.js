@@ -3,7 +3,8 @@ import React , {useState , useEffect } from 'react';
 import {useDispatch , useSelector} from 'react-redux'
 import { LoginAction } from '../Action/useraction';
 import { LoginReducer } from '../Reducer/userreducer';
-import './login.css'
+import './login.css';
+import Loader from '../loader';
 
 const LoginFreedemy=()=>{
 
@@ -76,7 +77,7 @@ if(localStorage.getItem('currentuser'))
 
 <br/><br/> <br/><br/>
 <button type='submit' id="btn" style={{backgroundColor:'#8ecae6' , color:'white'  }} >Login</button>
-        
+{ loading && ( <Loader/> ) }
         {error && ( <p  style={{color:'#00688B' , fontSize:'20px' }} >Invalid Credentials</p> )  }
         
         
