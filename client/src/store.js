@@ -3,9 +3,10 @@ import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import {RegisterUserReducer} from './Reducer/userreducer'
 import { LoginReducer } from './Reducer/userreducer';
-import { UpdateProfileReducer } from './Reducer/userreducer';
+import { UpdateProfileReducer , getalluser } from './Reducer/userreducer';
 import { DeleteProfileReducer } from './Reducer/userreducer';
 import {MessageReducer} from './Reducer/messagereducer'
+
 import thunk from 'redux-thunk'
 
 
@@ -16,7 +17,8 @@ const FinalReducer = combineReducers(
     LoginReducer : LoginReducer , 
     UpdateProfileReducer:UpdateProfileReducer ,
     DeleteProfileReducer:DeleteProfileReducer ,
-    MessageReducer:MessageReducer
+    MessageReducer:MessageReducer ,
+    getalluser:getalluser
 
   }
 )

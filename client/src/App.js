@@ -21,11 +21,11 @@ import STL from './Courses/stl';
 import DSA from './Courses/web';
 import  UserProfile  from './screen/profile';
 import LogoutOOPS from '../src/oops';
-
+import MessageScreen from '../src/Courses/messagescreen'
 import Loader from './loader';
 import './loader.css';
 import AbdulBari from './Courses/abdulbari';
-
+import AdminScreen from './adminscreen';
 
 
 function App() {
@@ -46,7 +46,10 @@ function App() {
     <div className="App">
 
 
-      <NavBar/>
+      <AdminScreen/>
+
+
+      {/* <NavBar/>
       <br/> 
       <Router>
       <Switch>
@@ -74,7 +77,7 @@ function App() {
       { currentuser ?( <Route  path="/c++/abdulbari"><AbdulBari/></Route> )  : (  <LogoutOOPS/> ) }
       
      </Switch>
-        </Router>
+        </Router> */}
 
     
       

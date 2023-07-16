@@ -8,7 +8,7 @@ export const registeruseraction=(user)=> dispatch=>{
     dispatch({type:'user_registration_request'})
 
     axios.post('/api/users/register', user ).then(res=>{
-        dispatch({type:'user_registration_success'})
+        dispatch({type:'user_registration_success' })
       
     } ).catch(err=>{
         dispatch({type:'user_registration_failed' , payload:err } )
@@ -91,4 +91,19 @@ export const DeleteUserAction=(userid)=>dispatch=>{
 
 
     
+}
+
+
+
+export const getall=()=>dispatch=>{
+
+    dispatch({type:'User_getall_request'})
+
+    axios.get('/api/users/getallusers').then(res=>{
+        dispatch({type:'User_getall_success' , payload:res.data })
+
+    }).catch(err=>{
+        dispatch({type:'User_getall_failed' , payload:err })
+    })
+
 }

@@ -110,7 +110,44 @@ export const UpdateProfileReducer=( state={} , action )=>{
 
 }
 
+export const getalluser=(state={} , action )=>{
 
+    switch(action.type)
+    {
+        case 'User_getall_request' :  return{
+            ...state ,
+            loading : true 
+
+
+        }
+
+        case 'User_getall_success' :return{
+            ...state ,
+            users:action.payload,
+            success : true 
+
+
+        }
+
+
+        case 'User_getall_failed' :return{
+            ...state ,
+            loading : true   ,
+            error : action.payload 
+
+
+        }
+
+
+
+
+
+        default : return state 
+    }
+
+    
+
+}
 
 
 
